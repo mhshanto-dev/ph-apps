@@ -7,6 +7,8 @@ import { createBrowserRouter } from 'react-router'
 import RootLayout from './Layout/RootLayout.jsx'
 import Apps from './Apps/Apps.jsx'
 import InstallApps from './InstallApps/InstallApps';
+import NotFoundPage from './Pages/NotFoundPage.jsx'
+
 
 
 
@@ -33,7 +35,7 @@ const router = createBrowserRouter(
     ],
 
 
-     errorElement: <h2>This page is not fount</h2>,
+     errorElement: <NotFoundPage/> ,
      
    },
   ]
